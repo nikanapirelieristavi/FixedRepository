@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.first{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-out;
+    transition-duration: 2s;
+}
+.first:hover{
+    transform: translate(300px, 350px);
+    
+}
+.second{
+    width: 150px;
+    height: 150px;
+    box-shadow: 5px 5px grey;
+    background-image: url(https://images.search.yahoo.com/images/view;_ylt=AwrFGWUUFd5lFJ8Jq0CJzbkF;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2M2MzIyMTZjNDcwZmYyMTgzZGZlOTYzY2NiZmQ0NzQzBGdwb3MDMwRpdANiaW5n?back=https%3A%2F%2Fimages.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Ddog%26type%3DE210US91215G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D3&w=1920&h=1200&imgurl=inspirationseek.com%2Fwp-content%2Fuploads%2F2016%2F02%2FCute-Dog-Photography.jpg&rurl=http%3A%2F%2Finspirationseek.com%2F38-cute-dog-pictures%2F&size=1184.8KB&p=dog&oid=c632216c470ff2183dfe963ccbfd4743&fr2=piv-web&fr=mcafee&tt=38+Cute+Dog+Pictures+-+InspirationSeek.com&b=0&ni=21&no=3&ts=&tab=organic&sigr=z8zD6Wo2FcuE&sigb=J.2mFiKZWSnC&sigi=SFUja2o8T5Yk&sigt=QUohcomuNwMG&.crumb=AKE4TPx.053&fr=mcafee&fr2=piv-web&type=E210US91215G0);
+    transition-duration: 2s;
+}
+.second:hover{
+    transform: 2s 3s scale(120%);
+}

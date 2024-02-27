@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=MuseoModerno:wght@300&family=Poppins&family=Roboto:wght@700&display=swap');
+h1{
+    font-family: MuseoModerno;
+    font-size: xx-large;
+    font-style: oblique;
+    text-align: center; 
+    color: steelblue;
+}
+p, h2{
+    font-family: MuseoModerno;
+    font-size: 19px;
+    background-color: aliceblue;
+    width: 69%;
+}
+h3{ 
+    font-family: MuseoModerno;
+    font-size: 21px;
+    background-color: antiquewhite;
+    text-align: center;    
+    width: 100%
+}
+a{  
+    text-align: center;
+    display: block;
+    background-color: darkgrey;
+}
+h4, h5{
+    font-family: MuseoModerno;
+    font-size: 19px;
+    background-color: aliceblue;
+    text-align: center;
+}

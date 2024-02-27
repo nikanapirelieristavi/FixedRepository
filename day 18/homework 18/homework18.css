@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Poppins&family=Roboto:wght@700&display=swap');
+
+p{font: normal 600 17px Poppins;
+  color:brown;
+/*1. font-style; 2.font-weight; 3.font-size; font-family*/
+  text-decoration-line: underline;
+  text-decoration-color: darkgreen;
+  text-decoration-style: unset;
+}
+h1{font: bolder 35px Poppins;
+   color: crimson;
+   text-decoration-line: underline;
+   text-decoration-color: darkgreen;
+   text-decoration-style: solid;
+}
+h2{font: italic 500 26px Poppins;
+   color: darkgreen;
+}
+h3{font: bold 22px Poppins;
+   color:darkred
+}

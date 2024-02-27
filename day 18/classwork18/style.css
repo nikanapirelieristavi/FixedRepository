@@ -1,0 +1,22 @@
+/*amat qvia properties da external css it movixsseniebt calke failshi datanil kods*/
+p{
+     color: red;
+     font-size: 18px;
+     font-weight: 400;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-style: italic;
+
+     text-decoration-line: underline;
+     text-decoration-color: black;
+     text-decoration-style: dashed;
+     /*text-decoration-line it vusmevt xazs gind qvevit gind zevit gind shuashi teqstis, 
+     colorit fers vsazgvravt, style-it ki shegvidzlia xazi shevcvalot magalitad dashed
+     font: italic 700 20px Georgia, 'Times New Roman', Times, serif;
+     aq amastanave shegvidzlia ertad davwerot yvelaferi fontis mere jer
+     1. font-style; 2.font-weight; 3.font-size; font-family*/
+ }
+/*font-weight-it vzrdit sisqes teqstis da font-family-shi vwert asoebis daweris stils*/
+/*font-style is meshveobit gadavaketebt teqsts da vucvlit formas magalitad shegvidzlia daxrili gavxadot italicis meshveobit*/
+ h1{
+     color: green;
+ }

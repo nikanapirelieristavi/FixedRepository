@@ -1,0 +1,40 @@
+body{
+    background-color: darkseagreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+.christmasred{
+    color: brown;
+}
+h1, h2{
+    color:darkgreen;
+    font-size: 30px;
+    font-weight: 600;
+}
+.listcolor{
+    color:darkgreen
+}
+element{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+#element1{
+    position: absolute;
+    top: 95px;
+    left: 300px;
+}
+#element2{
+    position: absolute;
+    top: 45px;
+    left: 300px;
+}
+#element3{
+    position: absolute;
+    top: 170px;
+    left: 300px;
+}
+#element4{
+    position: absolute;
+    top: 220px;
+    left: 300px;
+}

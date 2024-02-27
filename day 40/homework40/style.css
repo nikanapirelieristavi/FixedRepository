@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    background-image: url('https://kinsta.com/wp-content/uploads/2021/09/rackspace-email-settings.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: roboto;
+    color: white;
+}
+#firsttwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#firsttwo img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+h2{
+    font-size: 37px;
+}
+#mainav a{
+    text-decoration: none;
+    margin: 15px;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;    
+}
+#mainav a:hover{
+    color: black;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#lightpurplebutton{
+    border-radius: 10px;
+    background-color:rgb(129, 19, 255);
+    color: white;
+    width: 10%;
+    height: 50px;
+}
+section{
+    margin: 100px 0 0 100px;
+}
+h1{
+    font-size: 65px;
+    width: 50%;
+    margin: 30px 0 30px;
+}
+#images{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.imgstyle{
+    width: 26px;
+    border: 2px solid darkblue;
+    border-radius: 7px;
+    padding: 5px;
+}
+p{
+    width: 70%;
+}
+#buttonrow{
+    display: flex;
+    gap: 10px;
+}
+#purplebutton{
+    background-color: rgb(139, 96, 188);
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    width: 8%;
+    height: 45px;
+    border-radius: 5px;
+    margin: 20px 0 0 0;
+}
+#whitebutton{
+    font-size: 12px;
+    font-weight: 700;
+    width: 8%;
+    height: 45px;
+    border-radius: 5px;
+    margin: 20px 0 0 0;
+}
