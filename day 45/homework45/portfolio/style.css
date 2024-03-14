@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+}
+nav a:link{
+    margin: 20px;
+    text-decoration: none;
+    color: purple;
+    font-size: 20px;
+    font-weight: 700;
+}
+nav a:visited{
+    color: white;
+}
+nav a:active{
+    color: blueviolet;
+}
+nav a:hover{
+    color: yellow;
+    font-size: 22px;
+    transition-duration: 0.5s;
+}
+.first-section{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    background-color: rgb(35, 33, 33);
+}
+.first-section-together{
+    flex-direction: column;
+    width: 45%;
+}
+.first-section-together h2{
+    color: yellow;
+    font-size: 35px;
+}
+.first-section-together p{
+    color: rgb(194, 194, 194);
+    font-size: 22px;
+    font-weight: 600;
+}
+#first-image{
+    width: 30%;
+    height: 30%;
+    border-radius: 5%;
+    margin: 0;
+    padding: 0;
+}
+.second-section{
+    background-color: rgb(35, 33, 33);
+}
+.the-h2{
+    margin: 0;
+    padding: 20px;
+    background-color: lightgray;
+    color:rgb(35, 33, 33);
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#projects{/* gridit ver gavakete */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    grid-gap: 20px;
+    padding: 20px;
+}
+.project{
+    text-align: center;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.project a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(12, 12, 12);
+}
+.project h2{
+    font-size: 30px;
+    font-weight: 800;
+    color: darkslategrey;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#second-image{
+    width: 10%;
+    transition-duration: 0.5s;
+}
+#second-image:hover{
+    width: 12%;
+}
+footer p{
+    font-size: 26px;
+    font-weight: 700;
+}
+@media screen and (min-width: 600px){
+    #first-image{width: 45%;}
+}
+@media screen and (max-width: 900px){
+    .first-section-together{width: 20%; height: 20%;}
+    #projects{flex-wrap: wrap;}
+    .first-section-together p{font-size: 15px; margin: 0; padding: 0;}
+    header{justify-content: space-evenly; font-size: 50%;}
+    nav a{justify-content: space-evenly;width: 50%};
+}

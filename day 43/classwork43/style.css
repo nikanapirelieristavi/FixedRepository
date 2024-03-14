@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border: 15px solid black;
+    border-top: 15px solid lightblue;
+    border-radius: 50%;
+    animation-name: loading-screen;
+    animation-duration: 2s;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+}
+@keyframes loading-screen{
+    0% { transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}

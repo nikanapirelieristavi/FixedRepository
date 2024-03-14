@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border: 15px solid black;
+    border-top: 15px solid lightblue;
+    border-radius: 50%;
+    animation-name: loading-screen;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes loading-screen{
+    0% { transform: rotate(0deg);}
+    50% {border-top: 15px solid lightblue;}
+    55% {border-top: 15px solid black;}
+    56% {border-top: 15px solid lightblue;}
+    100% {transform: rotate(360deg);}
+    
+}
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
