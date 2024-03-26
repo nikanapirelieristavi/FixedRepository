@@ -18,12 +18,10 @@ body{
     transition-delay: 0.5s;
     transition-timing-function: ease-out;
     transition-duration: 2s;
-    border-radius: 15px;
 }
 .first:hover{
     transform: translate(300px, 350px);
-    border-radius: 5px;
-    border: red 5px solid;
+    
 }
 .second{
     width: 150px;
